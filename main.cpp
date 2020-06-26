@@ -4,6 +4,8 @@
 #include <cmath>
 using namespace std;
 
+const int NotUsed = system( "color F4" );
+
 double Foo(double x){ // функция активации
     return (1/(1 + exp(-x)));
 }
