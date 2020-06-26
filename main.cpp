@@ -65,14 +65,6 @@ double Neuron::outputValue(double (*func)(double)){     // функция для вывода
     return output;
 }
 
-void Neuron::changeWeight(){    // функция для изменения весовых коэф
-    cout << "Введите значения весов" << endl;
-    for (int i = 0; i < numb; i++){
-        cin >> w[i];
-    }
-}
-
-
 int main()
 {
     setlocale(0, "rus");
